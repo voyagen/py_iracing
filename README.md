@@ -27,7 +27,7 @@ async def main():
 
     # Get the VarHeader for the 'Speed' variable
     speed_var_header = ir._var_headers_dict['Speed']
-    
+
     # Get the unit for the 'Speed' variable
     speed_unit = speed_var_header.unit
 
@@ -39,6 +39,7 @@ async def main():
 
 if __name__ == '__main__':
     asyncio.run(main())
+```
 
 ## Disclaimer
 
