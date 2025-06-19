@@ -1,5 +1,5 @@
 """
-py-iracing
+py_iracing
 ==========
 
 A Python 3 implementation of the iRacing SDK.

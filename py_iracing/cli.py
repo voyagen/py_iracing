@@ -4,10 +4,10 @@ from .constants import VERSION
 
 def main() -> None:
     """
-    The main entry point for the py-iracing command-line interface.
+    The main entry point for the py_iracing command-line interface.
     """
-    parser = argparse.ArgumentParser(description='A command-line interface for the py-iracing library.')
-    parser.add_argument('-v', '--version', action='version', version=f'py-iracing {VERSION}', help='show version and exit')
+    parser = argparse.ArgumentParser(description='A command-line interface for the py_iracing library.')
+    parser.add_argument('-v', '--version', action='version', version=f'py_iracing {VERSION}', help='show version and exit')
     parser.add_argument('--test', help='use test file as irsdk mmap')
     parser.add_argument('--dump', help='dump irsdk mmap to file')
     parser.add_argument('--parse', help='parse current irsdk mmap to file')

@@ -10,7 +10,7 @@ When reporting a bug, please include the following:
 *   The steps to reproduce the bug.
 *   The expected behavior.
 *   The actual behavior.
-*   The version of `py-iracing` you are using.
+*   The version of `py_iracing` you are using.
 *   The version of Python you are using.
 
 ## Feature Requests

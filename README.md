@@ -7,7 +7,7 @@ This package allows you to get session data, live telemetry data, and broadcast 
 ## Installation
 
 ```bash
-pip install py-iracing
+pip install py_iracing
 ```
 
 ## Usage

@@ -4,7 +4,7 @@ from setuptools import setup, find_packages
 from py_iracing import __version__
 
 setup(
-    name='py-iracing',
+    name='py_iracing',
     version=__version__,
     description='Python 3 implementation of iRacing SDK',
     author='voyagen',
@@ -21,7 +21,7 @@ setup(
         'Topic :: Utilities',
     ],
     entry_points={
-        'console_scripts': ['py-iracing = py_iracing.cli:main'],
+        'console_scripts': ['py_iracing = py_iracing.cli:main'],
     },
     install_requires=[
         'PyYAML >= 5.3',
